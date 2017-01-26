@@ -40,7 +40,7 @@
   },
   "scripts": {
     "test": "grunt test",
-    "start": "grunt serve",
+    "start": "node index.js",
     "dist": "grunt serve:dist",
     "postinstall": "bower install && grunt build"
   }
