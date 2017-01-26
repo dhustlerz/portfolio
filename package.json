@@ -44,6 +44,6 @@
     "test": "grunt test",
     "start": "node index.js",
     "dist": "grunt serve:dist",
-    "postinstall": "bower install && grunt build"
+    "postinstall": "bower install"
   }
 }
